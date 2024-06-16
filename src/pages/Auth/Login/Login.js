@@ -13,7 +13,7 @@ import style from "./Login.module.scss";
 
 //image
 // import logo from "../../../assets/png/logo.png";
-import unclelogo from "../../../assets/png/Hero_Book_Exchanges_Logo.png";
+import unclelogo from "../../../assets/png/Hero_Book_Exchanges_Logo.jpg";
 
 //components
 import Button from "../../../components/Button/Button";
@@ -165,7 +165,7 @@ const Login = (props) => {
     <div className={style.loginWrapper}>
       <div className={style.logo}>
         {/* <img src={logo} alt="logo" /> */}
-        <img src={unclelogo} alt="logo" />
+        <img src={unclelogo} alt="logo" />/
       </div>
 
       <form>
